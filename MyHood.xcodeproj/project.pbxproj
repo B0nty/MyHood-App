@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE550FF21E7F3DCA00D8DC0B /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE550FF11E7F3DCA00D8DC0B /* AddPostVC.swift */; };
+		DE550FF51E7F48AD00D8DC0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE550FF41E7F48AD00D8DC0B /* DataService.swift */; };
+		DE550FF81E8085D600D8DC0B /* DetailPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE550FF71E8085D600D8DC0B /* DetailPostVC.swift */; };
+		DE550FFA1E808A2800D8DC0B /* DetailPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE550FF91E808A2800D8DC0B /* DetailPost.swift */; };
 		DE747AD91E7B233C0076F24A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE747AD81E7B233C0076F24A /* AppDelegate.swift */; };
 		DE747ADB1E7B233C0076F24A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE747ADA1E7B233C0076F24A /* ViewController.swift */; };
 		DE747ADE1E7B233C0076F24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE747ADC1E7B233C0076F24A /* Main.storyboard */; };
 		DE747AE01E7B233C0076F24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE747ADF1E7B233C0076F24A /* Assets.xcassets */; };
 		DE747AE31E7B233C0076F24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE747AE11E7B233C0076F24A /* LaunchScreen.storyboard */; };
+		DE747AEC1E7B23770076F24A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE747AEB1E7B23770076F24A /* Post.swift */; };
+		DE747AEF1E7B29970076F24A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE747AEE1E7B29970076F24A /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE550FF11E7F3DCA00D8DC0B /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		DE550FF41E7F48AD00D8DC0B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DE550FF71E8085D600D8DC0B /* DetailPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPostVC.swift; sourceTree = "<group>"; };
+		DE550FF91E808A2800D8DC0B /* DetailPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPost.swift; sourceTree = "<group>"; };
 		DE747AD51E7B233C0076F24A /* MyHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE747AD81E7B233C0076F24A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE747ADA1E7B233C0076F24A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		DE747ADF1E7B233C0076F24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE747AE21E7B233C0076F24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE747AE41E7B233C0076F24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE747AEB1E7B23770076F24A /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DE747AEE1E7B29970076F24A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE550FF31E7F487300D8DC0B /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				DE550FF41E7F48AD00D8DC0B /* DataService.swift */,
+			);
+			name = ModelView;
+			sourceTree = "<group>";
+		};
 		DE747ACC1E7B233C0076F24A = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +74,10 @@
 		DE747AD71E7B233C0076F24A /* MyHood */ = {
 			isa = PBXGroup;
 			children = (
+				DE550FF31E7F487300D8DC0B /* ModelView */,
+				DE747AF01E7B478F0076F24A /* Controller */,
+				DE747AED1E7B29790076F24A /* View */,
+				DE747AEA1E7B23610076F24A /* Model */,
 				DE747AD81E7B233C0076F24A /* AppDelegate.swift */,
 				DE747ADA1E7B233C0076F24A /* ViewController.swift */,
 				DE747ADC1E7B233C0076F24A /* Main.storyboard */,
@@ -62,6 +86,32 @@
 				DE747AE41E7B233C0076F24A /* Info.plist */,
 			);
 			path = MyHood;
+			sourceTree = "<group>";
+		};
+		DE747AEA1E7B23610076F24A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE747AEB1E7B23770076F24A /* Post.swift */,
+				DE550FF91E808A2800D8DC0B /* DetailPost.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE747AED1E7B29790076F24A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE747AEE1E7B29970076F24A /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE747AF01E7B478F0076F24A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE550FF71E8085D600D8DC0B /* DetailPostVC.swift */,
+				DE550FF11E7F3DCA00D8DC0B /* AddPostVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE747AEC1E7B23770076F24A /* Post.swift in Sources */,
 				DE747ADB1E7B233C0076F24A /* ViewController.swift in Sources */,
 				DE747AD91E7B233C0076F24A /* AppDelegate.swift in Sources */,
+				DE550FF51E7F48AD00D8DC0B /* DataService.swift in Sources */,
+				DE550FFA1E808A2800D8DC0B /* DetailPost.swift in Sources */,
+				DE550FF21E7F3DCA00D8DC0B /* AddPostVC.swift in Sources */,
+				DE747AEF1E7B29970076F24A /* PostCell.swift in Sources */,
+				DE550FF81E8085D600D8DC0B /* DetailPostVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +356,7 @@
 				DE747AE91E7B233C0076F24A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
