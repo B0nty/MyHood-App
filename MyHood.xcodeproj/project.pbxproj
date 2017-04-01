@@ -10,7 +10,6 @@
 		DE550FF21E7F3DCA00D8DC0B /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE550FF11E7F3DCA00D8DC0B /* AddPostVC.swift */; };
 		DE550FF51E7F48AD00D8DC0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE550FF41E7F48AD00D8DC0B /* DataService.swift */; };
 		DE550FF81E8085D600D8DC0B /* DetailPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE550FF71E8085D600D8DC0B /* DetailPostVC.swift */; };
-		DE550FFA1E808A2800D8DC0B /* DetailPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE550FF91E808A2800D8DC0B /* DetailPost.swift */; };
 		DE747AD91E7B233C0076F24A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE747AD81E7B233C0076F24A /* AppDelegate.swift */; };
 		DE747ADB1E7B233C0076F24A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE747ADA1E7B233C0076F24A /* ViewController.swift */; };
 		DE747ADE1E7B233C0076F24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE747ADC1E7B233C0076F24A /* Main.storyboard */; };
@@ -24,7 +23,6 @@
 		DE550FF11E7F3DCA00D8DC0B /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 		DE550FF41E7F48AD00D8DC0B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		DE550FF71E8085D600D8DC0B /* DetailPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPostVC.swift; sourceTree = "<group>"; };
-		DE550FF91E808A2800D8DC0B /* DetailPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPost.swift; sourceTree = "<group>"; };
 		DE747AD51E7B233C0076F24A /* MyHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE747AD81E7B233C0076F24A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE747ADA1E7B233C0076F24A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				DE747AEB1E7B23770076F24A /* Post.swift */,
-				DE550FF91E808A2800D8DC0B /* DetailPost.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -191,7 +188,6 @@
 				DE747ADB1E7B233C0076F24A /* ViewController.swift in Sources */,
 				DE747AD91E7B233C0076F24A /* AppDelegate.swift in Sources */,
 				DE550FF51E7F48AD00D8DC0B /* DataService.swift in Sources */,
-				DE550FFA1E808A2800D8DC0B /* DetailPost.swift in Sources */,
 				DE550FF21E7F3DCA00D8DC0B /* AddPostVC.swift in Sources */,
 				DE747AEF1E7B29970076F24A /* PostCell.swift in Sources */,
 				DE550FF81E8085D600D8DC0B /* DetailPostVC.swift in Sources */,
