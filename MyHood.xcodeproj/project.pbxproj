@@ -77,7 +77,6 @@
 				DE747AED1E7B29790076F24A /* View */,
 				DE747AEA1E7B23610076F24A /* Model */,
 				DE747AD81E7B233C0076F24A /* AppDelegate.swift */,
-				DE747ADA1E7B233C0076F24A /* ViewController.swift */,
 				DE747ADC1E7B233C0076F24A /* Main.storyboard */,
 				DE747ADF1E7B233C0076F24A /* Assets.xcassets */,
 				DE747AE11E7B233C0076F24A /* LaunchScreen.storyboard */,
@@ -107,6 +106,7 @@
 			children = (
 				DE550FF71E8085D600D8DC0B /* DetailPostVC.swift */,
 				DE550FF11E7F3DCA00D8DC0B /* AddPostVC.swift */,
+				DE747ADA1E7B233C0076F24A /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
